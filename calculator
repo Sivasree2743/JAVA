@@ -1,0 +1,37 @@
+import java.io.*;
+import java.util.*;
+class main
+    {
+        public static void main(String[] args)
+        {
+            Scanner sc=new Scanner(System.in);
+            String op=sc.nextLine();
+            int a=sc.nextInt();
+            int b=sc.nextInt();
+            switch(op){
+                case "+":
+                    int add=a+b;
+                    System.out.println(add);
+                    break;
+                case "-":
+                    double sub=a-b;
+                    System.out.println(sub);
+                    break;
+                case "/":
+                    double div=a/b;
+                    System.out.println(div);
+                    break;
+                case "*":
+                    double mul=a*b;
+                    System.out.println(mul);
+                    break;
+                case "%":
+                    double rem=a%b;
+                    System.out.println(rem);
+                    break;
+                default:
+                    System.out.println("enter correct op");
+            }
+            
+        }
+    }
