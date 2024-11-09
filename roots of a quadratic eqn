@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a=6;
+		int b=5;
+		int c=2;
+		double x=(-b)+(((b*b)-(4*a*c))*0.5);
+		double z=(4*a*c);
+		double y=(-b)-(((b*b)-(4*a*c))*0.5);
+		double root1=x/z;
+		double root2=y/z;
+		System.out.println("the roots are "+ root1 + " and " + root2);
+		
+	}
+}
