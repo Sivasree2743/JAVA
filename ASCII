@@ -1,0 +1,23 @@
+    CHAR TO ASCII
+
+public class Main
+{
+	public static void main(String[] args) {
+	    char a='A';
+	    int ascii=a;
+		System.out.println(ascii);
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+  ASCII TO CHAR
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int a=97;
+		System.out.println((char)a);
+	}
+}
